@@ -156,8 +156,30 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10.0),
                         child: Container(
                           width: 120,
-                          child: Placeholder(
-                            color: Colors.grey,
+                          decoration:
+                              BoxDecoration(color: Colors.lightBlueAccent),
+                          child: Padding(
+                            padding: const EdgeInsets.all(12.0),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                SizedBox(
+                                  height: 10,
+                                ),
+                                Icon(
+                                  Icons.layers_clear,
+                                  color: Colors.white,
+                                ),
+                                SizedBox(
+                                  height: 15,
+                                ),
+                                Text('Mathematics',
+                                    style: TextStyle(
+                                        fontSize: 16, color: Colors.white)),
+                                Text('25 Courses',
+                                    style: TextStyle(color: Colors.white)),
+                              ],
+                            ),
                           ),
                         ),
                       ),
@@ -168,8 +190,29 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10.0),
                         child: Container(
                           width: 120,
-                          child: Placeholder(
-                            color: Colors.grey,
+                          decoration: BoxDecoration(color: Color(0xFF32CCBC)),
+                          child: Padding(
+                            padding: const EdgeInsets.all(12.0),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                SizedBox(
+                                  height: 10,
+                                ),
+                                Icon(
+                                  Icons.computer,
+                                  color: Colors.white,
+                                ),
+                                SizedBox(
+                                  height: 15,
+                                ),
+                                Text('Computer',
+                                    style: TextStyle(
+                                        fontSize: 16, color: Colors.white)),
+                                Text('35 Courses',
+                                    style: TextStyle(color: Colors.white)),
+                              ],
+                            ),
                           ),
                         ),
                       ),
@@ -180,8 +223,29 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10.0),
                         child: Container(
                           width: 120,
-                          child: Placeholder(
-                            color: Colors.grey,
+                          decoration: BoxDecoration(color: Color(0xFFF6A843)),
+                          child: Padding(
+                            padding: const EdgeInsets.all(12.0),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                SizedBox(
+                                  height: 10,
+                                ),
+                                Icon(
+                                  Icons.whatshot,
+                                  color: Colors.white,
+                                ),
+                                SizedBox(
+                                  height: 15,
+                                ),
+                                Text('Chemistry',
+                                    style: TextStyle(
+                                        fontSize: 16, color: Colors.white)),
+                                Text('20 Courses',
+                                    style: TextStyle(color: Colors.white)),
+                              ],
+                            ),
                           ),
                         ),
                       ),
@@ -230,8 +294,29 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10.0),
                         child: Container(
                           width: 120,
-                          child: Placeholder(
-                            color: Colors.grey,
+                          decoration: BoxDecoration(color: Color(0xFF584BF6)),
+                          child: Padding(
+                            padding: const EdgeInsets.all(12.0),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                SizedBox(
+                                  height: 10,
+                                ),
+                                Icon(
+                                  Icons.edit_attributes,
+                                  color: Colors.white,
+                                ),
+                                SizedBox(
+                                  height: 15,
+                                ),
+                                Text('Test Prep',
+                                    style: TextStyle(
+                                        fontSize: 15, color: Colors.white)),
+                                Text('185 Courses',
+                                    style: TextStyle(color: Colors.white)),
+                              ],
+                            ),
                           ),
                         ),
                       ),
@@ -242,8 +327,29 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10.0),
                         child: Container(
                           width: 120,
-                          child: Placeholder(
-                            color: Colors.grey,
+                          decoration: BoxDecoration(color: Color(0xFFFF5859)),
+                          child: Padding(
+                            padding: const EdgeInsets.all(12.0),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                SizedBox(
+                                  height: 10,
+                                ),
+                                Icon(
+                                  Icons.computer,
+                                  color: Colors.white,
+                                ),
+                                SizedBox(
+                                  height: 15,
+                                ),
+                                Text('Kids Learning',
+                                    style: TextStyle(
+                                        fontSize: 15, color: Colors.white)),
+                                Text('95 Courses',
+                                    style: TextStyle(color: Colors.white)),
+                              ],
+                            ),
                           ),
                         ),
                       ),
@@ -254,8 +360,29 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10.0),
                         child: Container(
                           width: 120,
-                          child: Placeholder(
-                            color: Colors.grey,
+                          decoration: BoxDecoration(color: Color(0xFFF683093)),
+                          child: Padding(
+                            padding: const EdgeInsets.all(12.0),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                SizedBox(
+                                  height: 10,
+                                ),
+                                Icon(
+                                  Icons.whatshot,
+                                  color: Colors.white,
+                                ),
+                                SizedBox(
+                                  height: 15,
+                                ),
+                                Text('Programming',
+                                    style: TextStyle(
+                                        fontSize: 15, color: Colors.white)),
+                                Text('256 Courses',
+                                    style: TextStyle(color: Colors.white)),
+                              ],
+                            ),
                           ),
                         ),
                       ),
@@ -290,8 +417,13 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10.0),
                         child: Container(
                           width: 130,
-                          child: Placeholder(
-                            color: Colors.grey,
+                          decoration: BoxDecoration(color: Color(0xFFF6A744)),
+                          child: Center(
+                            child: Icon(
+                              Icons.lightbulb_outline,
+                              size: 70,
+                              color: Colors.white,
+                            ),
                           ),
                         ),
                       ),
